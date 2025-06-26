@@ -1,5 +1,5 @@
 //your JS code here. If required.
-var deleteBtn = document.querySelector("input[typr='button']");
+var deleteBtn = document.querySelector("input[type='button']");
 
 
 deleteBtn.addEventListener("click",function () {
