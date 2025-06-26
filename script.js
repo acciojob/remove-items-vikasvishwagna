@@ -1,10 +1,10 @@
 //your JS code here. If required.
-var deleteBtn = document.queryselector("button");
+var deleteBtn = document.querySelector("input[typr='button']");
 
 
-deleteBtn.addEventListner("click",function () {
-	var colorSelect = document.queryselector("colorSelect");
-	var selectIdx = colorSelect.selectIndex;
+deleteBtn.addEventListener("click",function () {
+	var colorSelect = document.querySelector("#colorSelect");
+	var selectIdx = colorSelect.selectedIndex;
 
 	if(selectIdx != -1){
 		colorSelect.remove(selectIdx);
